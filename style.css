@@ -1,3 +1,10 @@
+footer {
+  padding: 30px;
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  font-size: small;
+}
 .weather-app {
   background-image: url(blueskies.jpg);
   background-size: cover;
@@ -6,4 +13,23 @@
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
+}
+.search-form-input {
+  background-color: #f9f7fe;
+  border: none;
+  color: gray;
+  font-size: 16px;
+  padding: 15px;
+  width: 75%;
+  border-radius: 6px;
+}
+.search-form-button {
+  margin-left: 15px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 15px;
+  line-height: 1;
+  border-radius: 5px;
 }
