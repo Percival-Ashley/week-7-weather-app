@@ -1,18 +1,9 @@
-main {
-  padding: 60px 0;
-}
-footer {
-  font-family: monospace;
-  color: grey;
-  padding: 15px 0;
-}
 .weather-app {
   background-image: url(blueskies.jpg);
   background-size: cover;
-  margin: 20px auto;
-  border-radius: 10px;
   max-width: 600px;
-}
-.search-form {
-  padding: 30px 0;
+  margin: 45px auto;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
 }
