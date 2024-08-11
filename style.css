@@ -66,3 +66,10 @@ footer {
 .wind {
   font-weight: bolder;
 }
+.weather-forecast-date {
+  text-align: center;
+  color: #f9f7fe;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
