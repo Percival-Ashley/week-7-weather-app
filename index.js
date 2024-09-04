@@ -79,4 +79,3 @@ searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Nairobi");
 getForecast("Nairobi");
-displayForecast();
