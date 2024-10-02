@@ -52,7 +52,7 @@ function handleSearchSubmit(event) {
 }
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
-  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
   return days[date.getDay()];
 }
@@ -62,6 +62,7 @@ function getForecast(city) {
   axios(apiUrl).then(displayForecast);
 }
 function displayForecast(response) {
+  console.log(response.data.daily);
   let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
   let forecastHtml = "";
   response.data.daily.forEach(function (day, index) {
